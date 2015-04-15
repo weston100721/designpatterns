@@ -8,4 +8,8 @@ public class StringUtils {
 	public static String up(String s) {
 		return s.toLowerCase();
 	}
+	
+	public static int length(String s){
+		return s.length();
+	}
 }
