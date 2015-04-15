@@ -1,9 +1,9 @@
 package com.zhaoliang.designpatterns.Iterator;
 
 public class ConcreteAggregate extends Aggregate {
-	
+
 	private String[] ss = null;
-	
+
 	public ConcreteAggregate(String[] ss) {
 		this.ss = ss;
 	}
@@ -12,16 +12,16 @@ public class ConcreteAggregate extends Aggregate {
 	public Iterator createIterator() {
 		return new ConcreteIterator(this);
 	}
-	
-	public Object get(int index){
+
+	public Object get(int index) {
 		Object retObj = null;
-		if(index < ss.length){
+		if (index < ss.length) {
 			retObj = ss[index];
 		}
 		return retObj;
 	}
 
-	public int size(){
+	public int size() {
 		return this.ss.length;
 	}
 }
