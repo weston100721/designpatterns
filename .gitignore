@@ -1,6 +1,43 @@
+<<<<<<< HEAD
 target/
+=======
+>>>>>>> htmlparser-master
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
+<<<<<<< HEAD
+=======
+buildNumber.properties
+.mvn/timing.properties
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven
+dependency-reduced-pom.xml
+log/
+target/
+lib/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> htmlparser-master
